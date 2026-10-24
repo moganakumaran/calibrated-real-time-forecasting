@@ -1,0 +1,10 @@
+{
+  "checkpoint": "aggregate_pv-tcqn-no-csky_s0",
+  "original_threads": 4,
+  "original_prediction_batch_size": 4096,
+  "compared_scalar_forecasts": 483896,
+  "max_absolute_difference": 0.0,
+  "bitwise_equal": true,
+  "seconds": 10.708979374961928,
+  "note": "Replayed all test origins with the original inference batching and thread count; no training or tuning."
+}

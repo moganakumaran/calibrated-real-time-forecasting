@@ -1,0 +1,66 @@
+{
+  "persistence": {
+    "mae": {
+      "original": 20.345808029174805,
+      "reproduced": 20.345808029174805,
+      "difference": 0.0
+    },
+    "rmse": {
+      "original": 35.981937408447266,
+      "reproduced": 35.981937408447266,
+      "difference": 0.0
+    },
+    "crps": {
+      "original": 14.582376480102539,
+      "reproduced": 14.582376480102539,
+      "difference": 0.0
+    },
+    "picp": {
+      "original": 0.8997801180418933,
+      "reproduced": 0.8997801180418933,
+      "difference": 0.0
+    },
+    "mpiw": {
+      "original": 106.2867431640625,
+      "reproduced": 106.2867431640625,
+      "difference": 0.0
+    },
+    "winkler": {
+      "original": 185.1636962890625,
+      "reproduced": 185.1636962890625,
+      "difference": 0.0
+    }
+  },
+  "lightgbm-q": {
+    "mae": {
+      "original": 18.855148315429688,
+      "reproduced": 18.855148315429688,
+      "difference": 0.0
+    },
+    "rmse": {
+      "original": 31.322111129760742,
+      "reproduced": 31.322111129760742,
+      "difference": 0.0
+    },
+    "crps": {
+      "original": 11.548942565917969,
+      "reproduced": 11.548942565917969,
+      "difference": 0.0
+    },
+    "picp": {
+      "original": 0.8570477953940516,
+      "reproduced": 0.8570477953940516,
+      "difference": 0.0
+    },
+    "mpiw": {
+      "original": 70.09186553955078,
+      "reproduced": 70.09186553955078,
+      "difference": 0.0
+    },
+    "winkler": {
+      "original": 112.63252258300781,
+      "reproduced": 112.63252258300781,
+      "difference": 0.0
+    }
+  }
+}

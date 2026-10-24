@@ -1,0 +1,22 @@
+{
+  "searched_roots": [
+    "<LOCAL_HOME>/Documents/publications_2026",
+    "<LOCAL_HOME>/Downloads",
+    "<LOCAL_HOME>/Desktop"
+  ],
+  "filename_patterns": [
+    "*pv-tcqn*",
+    "*lightgbm-q*",
+    "*lstm-gauss*",
+    "*ausgrid*.npz",
+    "*netload*",
+    "*forecast*.zip",
+    "*forecast*.tar*"
+  ],
+  "matching_archive": "<LOCAL_HOME>/Downloads/netload-forecasting-main.zip",
+  "archive_sha256": "8b907636514b498f6d70e164109eab3978d88fa169918fc7046c480a18438cd7",
+  "archive_files": 37,
+  "identical_original_files": 37,
+  "archive_run_records": [],
+  "finding": "No original prediction/checkpoint/processed-array files found in the targeted search. This is not proof of absence from every location or remote machine."
+}

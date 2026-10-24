@@ -1,0 +1,13 @@
+ep  0 train -0.0824 val 0.0983 (20s)
+ep  1 train -0.4909 val 0.0978 (42s)
+ep  2 train -0.5874 val 0.0946 (63s)
+ep  3 train -0.6723 val 0.0943 (85s)
+ep  4 train -0.7184 val 0.0918 (108s)
+ep  5 train -0.7708 val 0.0887 (130s)
+ep  6 train -0.8362 val 0.0838 (152s)
+ep  7 train -0.9131 val 0.0830 (176s)
+ep  8 train -0.9811 val 0.0839 (199s)
+ep  9 train -1.0394 val 0.0891 (222s)
+ep 10 train -1.0676 val 0.0974 (245s)
+ep 11 train -1.0961 val 0.1026 (269s)
+{"params": 56578, "train_time_s": 268.57508993148804, "best_val": 0.08303526788949966, "latency_ms_median": 2.041916479356587, "latency_ms_p95": 2.5943712913431227, "args": {"level": "aggregate", "model": "lstm-gauss", "seed": 1, "epochs": 25, "steps": 150, "bs": 256, "lr": 0.001, "patience": 4, "threads": 4, "ablate": ""}}

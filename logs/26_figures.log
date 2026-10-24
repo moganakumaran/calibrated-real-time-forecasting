@@ -1,0 +1,4 @@
+Matplotlib is building the font cache; this may take a moment.
+/opt/homebrew/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1215: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+figures written to /Users/msivara/Documents/publications_2026/papers_2026/IEEE_0701/Paper_Writing_Code/scholarforge/papers_v3/calibrated-real-time-forecasting/reproduction_2026-10-22/figures

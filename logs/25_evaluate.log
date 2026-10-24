@@ -1,0 +1,33 @@
+aggregate persistence {'mae': 20.3458, 'rmse': 35.9819, 'nmae': 0.2322, 'crps': 14.5824, 'picp': 0.8998, 'mpiw': 106.2867, 'winkler': 185.1637, 'crps_std': 0.0, 'mae_std': 0.0, 'picp_std': 0.0}
+aggregate lightgbm-q {'mae': 18.8551, 'rmse': 31.3221, 'nmae': 0.2152, 'crps': 11.5489, 'picp': 0.857, 'mpiw': 70.0919, 'winkler': 112.6325, 'crps_std': 0.0, 'mae_std': 0.0, 'picp_std': 0.0, 'latency_ms_median': 3.5054, 'latency_ms_p95': 4.6264, 'train_time_s': 11.9719}
+aggregate mlp-q {'mae': 19.0436, 'rmse': 30.2744, 'nmae': 0.2173, 'crps': 11.4949, 'picp': 0.9465, 'mpiw': 89.4341, 'winkler': 116.5975, 'crps_std': 0.2727, 'mae_std': 0.5586, 'picp_std': 0.0049, 'latency_ms_median': 0.0862, 'latency_ms_p95': 0.1167, 'train_time_s': 6.8864, 'params': 385872.0}
+aggregate lstm-gauss {'mae': 22.9904, 'rmse': 32.8588, 'nmae': 0.2624, 'crps': 13.5549, 'picp': 0.8279, 'mpiw': 72.7135, 'winkler': 137.4754, 'crps_std': 0.3775, 'mae_std': 1.0458, 'picp_std': 0.0284, 'latency_ms_median': 2.1948, 'latency_ms_p95': 2.8116, 'train_time_s': 198.6462, 'params': 56578.0}
+aggregate pv-tcqn {'mae': 17.8807, 'rmse': 27.6095, 'nmae': 0.204, 'crps': 10.7611, 'picp': 0.8736, 'mpiw': 70.2454, 'winkler': 108.6503, 'crps_std': 0.2369, 'mae_std': 0.3553, 'picp_std': 0.027, 'latency_ms_median': 1.1018, 'latency_ms_p95': 1.2479, 'train_time_s': 612.4896, 'params': 95447.0}
+aggregate pv-tcqn raw {'picp': 0.9117, 'mpiw': 73.7583, 'winkler': 104.144, 'us_per_series_step': 0.0072, 'max_monthly_gap': 0.0537}
+aggregate pv-tcqn scqr {'picp': 0.9197, 'mpiw': 76.3648, 'winkler': 104.885, 'us_per_series_step': 0.0856, 'max_monthly_gap': 0.0563}
+aggregate pv-tcqn aci {'picp': 0.9013, 'mpiw': 75.0037, 'winkler': 103.4609, 'us_per_series_step': 19.4976, 'max_monthly_gap': 0.0048}
+aggregate pv-tcqn rcqr {'picp': 0.9027, 'mpiw': 73.3909, 'winkler': 103.4425, 'us_per_series_step': 123.3856, 'max_monthly_gap': 0.0126}
+aggregate pv-tcqn rw-aci {'picp': 0.9001, 'mpiw': 79.9872, 'winkler': 107.858, 'us_per_series_step': 128.4974, 'max_monthly_gap': 0.0148}
+aggregate lightgbm-q raw {'picp': 0.857, 'mpiw': 70.0919, 'winkler': 112.6325, 'us_per_series_step': 0.0081, 'max_monthly_gap': 0.0771}
+aggregate lightgbm-q scqr {'picp': 0.8699, 'mpiw': 71.4004, 'winkler': 112.1665, 'us_per_series_step': 0.0833, 'max_monthly_gap': 0.0656}
+aggregate lightgbm-q aci {'picp': 0.8981, 'mpiw': 80.8171, 'winkler': 114.0842, 'us_per_series_step': 20.2593, 'max_monthly_gap': 0.0123}
+aggregate lightgbm-q rcqr {'picp': 0.8947, 'mpiw': 77.6518, 'winkler': 113.0141, 'us_per_series_step': 126.7412, 'max_monthly_gap': 0.0213}
+aggregate lightgbm-q rw-aci {'picp': 0.8992, 'mpiw': 85.2699, 'winkler': 117.4575, 'us_per_series_step': 132.8203, 'max_monthly_gap': 0.0123}
+household persistence {'mae': 0.2347, 'rmse': 0.4453, 'nmae': 0.6745, 'crps': 0.1717, 'picp': 0.9059, 'mpiw': 1.3397, 'winkler': 2.1922, 'crps_std': 0.0, 'mae_std': 0.0, 'picp_std': 0.0}
+household lightgbm-q {'mae': 0.1903, 'rmse': 0.3688, 'nmae': 0.5471, 'crps': 0.12, 'picp': 0.8908, 'mpiw': 0.8716, 'winkler': 1.3211, 'crps_std': 0.0, 'mae_std': 0.0, 'picp_std': 0.0, 'latency_ms_median': 5.9756, 'latency_ms_p95': 6.8227, 'train_time_s': 50.7702}
+household mlp-q {'mae': 0.1962, 'rmse': 0.3619, 'nmae': 0.5639, 'crps': 0.1207, 'picp': 0.9084, 'mpiw': 0.8819, 'winkler': 1.2883, 'crps_std': 0.0, 'mae_std': 0.0, 'picp_std': 0.0, 'latency_ms_median': 0.0633, 'latency_ms_p95': 0.0689, 'train_time_s': 33.2957, 'params': 385872.0}
+household lstm-gauss {'mae': 0.2384, 'rmse': 0.4013, 'nmae': 0.6853, 'crps': 0.1488, 'picp': 0.9281, 'mpiw': 1.0628, 'winkler': 1.6602, 'crps_std': 0.0, 'mae_std': 0.0, 'picp_std': 0.0, 'latency_ms_median': 1.5904, 'latency_ms_p95': 1.7259, 'train_time_s': 476.5152, 'params': 56578.0}
+household pv-tcqn {'mae': 0.1963, 'rmse': 0.3685, 'nmae': 0.5642, 'crps': 0.1201, 'picp': 0.9087, 'mpiw': 0.8631, 'winkler': 1.278, 'crps_std': 0.0, 'mae_std': 0.0, 'picp_std': 0.0, 'latency_ms_median': 0.8347, 'latency_ms_p95': 0.9306, 'train_time_s': 5044.8299, 'params': 95447.0}
+household pv-tcqn raw {'picp': 0.9087, 'mpiw': 0.8631, 'winkler': 1.278, 'us_per_series_step': 0.0407, 'max_monthly_gap': 0.017, 'under85_share': 0.0339}
+/opt/homebrew/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1215: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+household pv-tcqn scqr {'picp': 0.9025, 'mpiw': 0.8894, 'winkler': 1.2925, 'us_per_series_step': 0.0512, 'max_monthly_gap': 0.0141, 'under85_share': 0.0417}
+household pv-tcqn aci {'picp': 0.8993, 'mpiw': 0.8931, 'winkler': 1.2935, 'us_per_series_step': 0.2955, 'max_monthly_gap': 0.0019, 'under85_share': 0.0033}
+household pv-tcqn rcqr {'picp': 0.9001, 'mpiw': 0.8652, 'winkler': 1.2711, 'us_per_series_step': 78.6033, 'max_monthly_gap': 0.0037, 'under85_share': 0.0006}
+household pv-tcqn rw-aci {'picp': 0.9, 'mpiw': 0.9035, 'winkler': 1.298, 'us_per_series_step': 89.5303, 'max_monthly_gap': 0.0012, 'under85_share': 0.0}
+household lightgbm-q raw {'picp': 0.8908, 'mpiw': 0.8716, 'winkler': 1.3211, 'us_per_series_step': 0.2025, 'max_monthly_gap': 0.0206, 'under85_share': 0.1928}
+household lightgbm-q scqr {'picp': 0.8787, 'mpiw': 0.8879, 'winkler': 1.3313, 'us_per_series_step': 0.0731, 'max_monthly_gap': 0.0336, 'under85_share': 0.2189}
+household lightgbm-q aci {'picp': 0.8983, 'mpiw': 0.9292, 'winkler': 1.3327, 'us_per_series_step': 0.2966, 'max_monthly_gap': 0.0049, 'under85_share': 0.0033}
+household lightgbm-q rcqr {'picp': 0.8988, 'mpiw': 0.8981, 'winkler': 1.3092, 'us_per_series_step': 86.9615, 'max_monthly_gap': 0.0091, 'under85_share': 0.0022}
+household lightgbm-q rw-aci {'picp': 0.9001, 'mpiw': 0.9357, 'winkler': 1.331, 'us_per_series_step': 83.2273, 'max_monthly_gap': 0.0016, 'under85_share': 0.0}
+saved /Users/msivara/Documents/publications_2026/papers_2026/IEEE_0701/Paper_Writing_Code/scholarforge/papers_v3/calibrated-real-time-forecasting/reproduction_2026-10-22/results/metrics.json

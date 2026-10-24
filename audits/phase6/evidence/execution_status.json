@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "statistics": {
+    "comparisons": 6,
+    "historical_seed0_reconstructions": 4,
+    "aggregate_seed_sensitivity_rows": 6,
+    "hac_lags": [0, 8, 24, 48, 96, 336],
+    "bootstrap_blocks": [48, 96, 336],
+    "bootstrap_repetitions": 2000
+  },
+  "runtime": {
+    "rows": 30,
+    "warmups_per_row": 20,
+    "timed_calls_per_row": 100,
+    "threads": 1,
+    "corrected_protocol_rerun_complete": true
+  },
+  "validation_tests": 6,
+  "training_or_parameter_selection": false,
+  "manuscript_edited": false,
+  "commit_push_publication_or_submission": false
+}

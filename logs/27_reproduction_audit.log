@@ -1,0 +1,66 @@
+{
+  "scientific_values": {
+    "total": 1064,
+    "exact_matches": 511,
+    "different": 553
+  },
+  "primary_comparisons": {
+    "aggregate": {
+      "original": {
+        "pv_qs7": 10.76207160949707,
+        "lightgbm_qs7": 11.548942565917969,
+        "qs7_reduction_percent": 6.813359335105096,
+        "shortest_horizon_reduction_percent": 24.32913492496874,
+        "pv_rw_aci_pooled_coverage": 0.9000983682444161,
+        "pv_rw_aci_max_monthly_gap": 0.014769345238095255,
+        "pv_rw_aci_under85_share": null,
+        "dm_vs_lightgbm": {
+          "stat": -4.430811405181885,
+          "p": 9.387916865422877e-06
+        }
+      },
+      "new_run": {
+        "pv_qs7": 10.761148770650228,
+        "lightgbm_qs7": 11.548942565917969,
+        "qs7_reduction_percent": 6.821350013399452,
+        "shortest_horizon_reduction_percent": 24.34321105049615,
+        "pv_rw_aci_pooled_coverage": 0.9001273000810092,
+        "pv_rw_aci_max_monthly_gap": 0.014769345238095255,
+        "pv_rw_aci_under85_share": null,
+        "dm_vs_lightgbm": {
+          "stat": -4.43867826461792,
+          "p": 9.051299997731772e-06
+        }
+      }
+    },
+    "household": {
+      "original": {
+        "pv_qs7": 0.12011102586984634,
+        "lightgbm_qs7": 0.12001411616802216,
+        "qs7_reduction_percent": -0.08074858601510027,
+        "shortest_horizon_reduction_percent": 8.629324571356422,
+        "pv_rw_aci_pooled_coverage": 0.9000134533040157,
+        "pv_rw_aci_max_monthly_gap": 0.001211226851851821,
+        "pv_rw_aci_under85_share": 0.0,
+        "dm_vs_lightgbm": {
+          "stat": 0.26916834712028503,
+          "p": 0.7878001369891663
+        }
+      },
+      "new_run": {
+        "pv_qs7": 0.12011837959289551,
+        "lightgbm_qs7": 0.12001411616802216,
+        "qs7_reduction_percent": -0.08687596776313367,
+        "shortest_horizon_reduction_percent": 8.620415401506943,
+        "pv_rw_aci_pooled_coverage": 0.9000119584924584,
+        "pv_rw_aci_max_monthly_gap": 0.001201678240740689,
+        "pv_rw_aci_under85_share": 0.0,
+        "dm_vs_lightgbm": {
+          "stat": 0.28929710388183594,
+          "p": 0.7723540283814244
+        }
+      }
+    }
+  },
+  "failed_checks": []
+}

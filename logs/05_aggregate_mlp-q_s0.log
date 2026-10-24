@@ -1,0 +1,6 @@
+ep  0 train 0.0900 val 0.0925 (1s)
+ep  1 train 0.0632 val 0.1106 (2s)
+ep  2 train 0.0587 val 0.1272 (3s)
+ep  3 train 0.0560 val 0.1298 (4s)
+ep  4 train 0.0538 val 0.1242 (5s)
+{"params": 385872, "train_time_s": 5.4906229972839355, "best_val": 0.09249075502157211, "latency_ms_median": 0.06574997678399086, "latency_ms_p95": 0.07265000604093075, "args": {"level": "aggregate", "model": "mlp-q", "seed": 0, "epochs": 25, "steps": 150, "bs": 256, "lr": 0.001, "patience": 4, "threads": 4, "ablate": ""}}

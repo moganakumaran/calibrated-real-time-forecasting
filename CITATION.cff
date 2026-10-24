@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or evidence archive, please cite the accompanying manuscript."
+title: "Calibrated Real-Time Net-Load Forecasting: Reproducibility Core"
+type: software
+authors:
+  - family-names: Sivaraman
+    given-names: Mogana Kumaran
+version: 1.0.0
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/moganakumaran/calibrated-real-time-forecasting"

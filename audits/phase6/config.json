@@ -1,0 +1,28 @@
+{
+  "phase": 6,
+  "created": "2026-10-22",
+  "statistical_scope": {
+    "metric": "QS7: twice the mean pinball loss at seven fixed quantiles",
+    "primary_hac_lag": 48,
+    "hac_lags": [0, 8, 24, 48, 96, 336],
+    "bootstrap_blocks": [48, 96, 336],
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 62026,
+    "primary_comparisons": [
+      "aggregate eight horizons: PV-TCQN seed 0 versus four baselines",
+      "aggregate all 48 horizons: PV-TCQN seed 0 versus LightGBM-Q",
+      "household eight horizons: PV-TCQN seed 0 versus LightGBM-Q"
+    ]
+  },
+  "runtime_scope": {
+    "hardware": "Apple M1 Pro, 10 logical CPUs, 16 GiB",
+    "threads": 1,
+    "warmups": 20,
+    "timed_calls": 100,
+    "models": ["PV-TCQN", "LightGBM-Q"],
+    "series_counts": [1, 300],
+    "calibration_horizon_counts": [8, 48],
+    "calibration_window": 721
+  },
+  "evidence_boundary": "Saved reproduction and Phase 4 outputs only; no fitting, parameter selection, or manuscript-number replacement."
+}

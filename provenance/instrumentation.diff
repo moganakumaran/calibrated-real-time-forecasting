@@ -1,0 +1,17 @@
+--- original/src/baselines.py
++++ reproduction/src/baselines.py
+@@ -103,6 +103,14 @@
+             "trees": [int(m.best_iteration_ or m.n_estimators) for m in models],
+             "latency_ms_median": 1000 * float(np.median(ts)),
+             "latency_ms_p95": 1000 * float(np.percentile(ts, 95))}
++    # Reproduction-only persistence: occurs after fitting, prediction and timing.
++    # It does not alter model parameters, predictions or the experimental protocol.
++    for qi, model in enumerate(models):
++        model.booster_.save_model(str(PRED / f"{level}_lightgbm-q_s0_q{qi}.txt"))
++    provenance = D.ROOT / "provenance"
++    provenance.mkdir(exist_ok=True)
++    (provenance / f"lightgbm_{level}_configuration.json").write_text(
++        json.dumps([m.get_params() for m in models], indent=2))
+     return out, meta
+ 
+ 

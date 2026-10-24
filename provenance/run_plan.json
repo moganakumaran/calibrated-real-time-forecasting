@@ -1,0 +1,402 @@
+{
+  "created_utc": "2026-10-22T08:56:06.977504+00:00",
+  "label": "Independent reproduction, not recovered original run",
+  "python": "<LOCAL_WORKSPACE>/scholarforge/papers_v3/ECF/artifact/.venv/bin/python",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "cpu_threads": 4,
+  "free_gib": 125.84530258178711,
+  "openmp_library": "/opt/homebrew/lib/python3.13/site-packages/torch/lib/libomp.dylib",
+  "openmp_sha256": "fe0670951c85401421f6cedc91971f28dc870bad4c1f0cfebe2b74dac421e5f0",
+  "training_protocol_source": "../netload-forecasting-main/run_all.sh",
+  "stages": [
+    {
+      "name": "prepare",
+      "arguments": [
+        "prepare_data.py"
+      ]
+    },
+    {
+      "name": "baseline_aggregate",
+      "arguments": [
+        "baselines.py",
+        "--level",
+        "aggregate"
+      ]
+    },
+    {
+      "name": "baseline_household",
+      "arguments": [
+        "baselines.py",
+        "--level",
+        "household"
+      ]
+    },
+    {
+      "name": "aggregate_pv-tcqn_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "0",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_mlp-q_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "mlp-q",
+        "--seed",
+        "0",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_lstm-gauss_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "lstm-gauss",
+        "--seed",
+        "0",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_pv-tcqn_s1",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "1",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_mlp-q_s1",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "mlp-q",
+        "--seed",
+        "1",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_lstm-gauss_s1",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "lstm-gauss",
+        "--seed",
+        "1",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_pv-tcqn_s2",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "2",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_mlp-q_s2",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "mlp-q",
+        "--seed",
+        "2",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_lstm-gauss_s2",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "lstm-gauss",
+        "--seed",
+        "2",
+        "--epochs",
+        "25",
+        "--steps",
+        "150"
+      ]
+    },
+    {
+      "name": "aggregate_no_csky_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "0",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "csky"
+      ]
+    },
+    {
+      "name": "aggregate_no_csky_s1",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "1",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "csky"
+      ]
+    },
+    {
+      "name": "aggregate_no_csky_s2",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "2",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "csky"
+      ]
+    },
+    {
+      "name": "aggregate_no_pvhist_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "0",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "pvhist"
+      ]
+    },
+    {
+      "name": "aggregate_no_pvhist_s1",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "1",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "pvhist"
+      ]
+    },
+    {
+      "name": "aggregate_no_pvhist_s2",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "2",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "pvhist"
+      ]
+    },
+    {
+      "name": "aggregate_no_noskip_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "0",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "noskip"
+      ]
+    },
+    {
+      "name": "aggregate_no_noskip_s1",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "1",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "noskip"
+      ]
+    },
+    {
+      "name": "aggregate_no_noskip_s2",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "aggregate",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "2",
+        "--epochs",
+        "25",
+        "--steps",
+        "150",
+        "--ablate",
+        "noskip"
+      ]
+    },
+    {
+      "name": "household_pv-tcqn_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "household",
+        "--model",
+        "pv-tcqn",
+        "--seed",
+        "0",
+        "--epochs",
+        "20",
+        "--steps",
+        "300"
+      ]
+    },
+    {
+      "name": "household_mlp-q_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "household",
+        "--model",
+        "mlp-q",
+        "--seed",
+        "0",
+        "--epochs",
+        "20",
+        "--steps",
+        "300"
+      ]
+    },
+    {
+      "name": "household_lstm-gauss_s0",
+      "arguments": [
+        "train_deep.py",
+        "--level",
+        "household",
+        "--model",
+        "lstm-gauss",
+        "--seed",
+        "0",
+        "--epochs",
+        "20",
+        "--steps",
+        "300"
+      ]
+    },
+    {
+      "name": "evaluate",
+      "arguments": [
+        "evaluate.py"
+      ]
+    },
+    {
+      "name": "figures",
+      "arguments": [
+        "make_figures.py"
+      ]
+    }
+  ],
+  "external_model_service_cost": 0
+}

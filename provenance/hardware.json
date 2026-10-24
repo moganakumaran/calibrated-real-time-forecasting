@@ -1,0 +1,8 @@
+{
+  "recorded_date": "2026-10-22",
+  "cpu": "Apple M1 Pro",
+  "model": "MacBookPro18,1",
+  "memory_bytes": 17179869184,
+  "logical_cpu_count": 10,
+  "source": "sysctl + os.cpu_count; this is reproduction hardware, not original run hardware"
+}

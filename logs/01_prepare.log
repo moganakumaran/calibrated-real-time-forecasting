@@ -1,0 +1,3 @@
+customers=300 steps=17520 missing=0.0740%
+net load kWh/30min: mean=0.240 min=-4.095 max=6.567
+share of intervals with export (net<0): 20.80%

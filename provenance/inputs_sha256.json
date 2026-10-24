@@ -1,0 +1,16 @@
+{
+  "src/baselines.py": "0bdcb4f54d81f0149e7afcd6ed5d1f7bc4f9af1ffb55cf8b035f3ae319324f35",
+  "src/conformal.py": "4b06714282a1d9f268485c04c0a4eae623ee1d4ad2a2f4b7ec52fbfc5e3d0990",
+  "src/data.py": "b96157b21579469c7d5ed456d059414a748001a7e0f47945c6200f8dd23dad9e",
+  "src/evaluate.py": "8121dd890111277cd08342993face531d3e5205a7029ae3dc003082b7826ea89",
+  "src/make_figures.py": "62b9c09acea535bd631f2491aaf7c38492760c99f875063be7fe9f1f285fdbb7",
+  "src/models.py": "6564a8454ff0c43366b0c3c78b9f14f76cf1f7fcda57c5ce4c15878acd283d03",
+  "src/prepare_data.py": "8ad79b2c5772a66e33e84af0298e78f519979257c949a452ad51df7daaf2a2d8",
+  "src/train_deep.py": "769c2b09a2f24afa87c32f26bb47008ac77a64d310054d299272b0b52c6f48ce",
+  "data/raw/2012-2013 Solar home electricity data v2.csv": "e4be46b3c9991c65735a9545319a2f1c33be8e639c75a17a88e0323a8e5098be",
+  "data/raw/Australian_Post_Codes_Lat_Lon.csv": "ff4a10ead9db5f03916fe708d5a27e2888bc0ab2904b3e30d12fc8e4a8074116",
+  "reference_results/metrics.json": "3fb32ad006f20102783c702bbf34498ff47893cf6f8c7efb6dd5f33a8e864574",
+  "reference_results/metrics_aggregate.json": "de3b970c9fefeda7296476544f1d0bfa9b4b3a2958b5167da541c1cf69bbd198",
+  "reference_results/metrics_household.json": "89b8e01745c7f951aa415cd7c1f95de4153ae534d9deb58793554a6bc6585d56",
+  "reference_results/per_home_coverage.json": "709915872a844def218073ded8f94cb1d674525df973eb1dce0ed93fa0712e40"
+}

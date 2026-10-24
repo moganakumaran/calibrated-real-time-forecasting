@@ -1,0 +1,12 @@
+{
+  "updated_utc": "2026-10-22T18:20:16.434214+00:00",
+  "status": "audited",
+  "monitor_pid": 16256,
+  "report": "REPRODUCTION_REPORT.md",
+  "scientific_counts": {
+    "total": 1064,
+    "exact_matches": 511,
+    "different": 553
+  },
+  "returncode": 0
+}

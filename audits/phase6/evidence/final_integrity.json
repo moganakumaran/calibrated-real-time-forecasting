@@ -1,0 +1,90 @@
+{
+  "earlier_gates_pass": {
+    "phase4": true,
+    "through_phase5": true
+  },
+  "input_hash_errors": [],
+  "manuscript_edited": false,
+  "missing_required_outputs": [],
+  "no_training_parameter_selection_commit_push_publication_or_submission": true,
+  "passed": true,
+  "phase": 6,
+  "phase6_file_count_excluding_this_manifest": 14,
+  "phase6_inventory": [
+    {
+      "bytes": 1219,
+      "path": "docs/review/phase6/README.md",
+      "sha256": "df4e0e04228b1295d5bc40187fb51560c51023f75794a2a34cfa3e613a7463af"
+    },
+    {
+      "bytes": 1103,
+      "path": "docs/review/phase6/common.py",
+      "sha256": "37387412fff8f8c94a389cbf265b9ad1d8789ed11c354565c819805d802a3742"
+    },
+    {
+      "bytes": 990,
+      "path": "docs/review/phase6/config.json",
+      "sha256": "4b99001057ccff53171f6b1f60befd63ac15debf6abc144b4d2907ca74f36369"
+    },
+    {
+      "bytes": 579,
+      "path": "docs/review/phase6/evidence/execution_status.json",
+      "sha256": "b0ecdb0ebaf1e9e268f1f54f230bf4e7ddcb27d59351e66c3edb86b58852759a"
+    },
+    {
+      "bytes": 688,
+      "path": "docs/review/phase6/evidence/protocol_correction.json",
+      "sha256": "474ff2cea5dfa7f8a18540f0b705f2724e1069b2d545023f1a45746553dec38d"
+    },
+    {
+      "bytes": 3642,
+      "path": "docs/review/phase6/finalize_phase6.py",
+      "sha256": "d39c454dc959b50f5899c5a62a8de3470e196d232924b61b6f7998f0fd1fd916"
+    },
+    {
+      "bytes": 10901,
+      "path": "docs/review/phase6/present_results.py",
+      "sha256": "b88762c675c5fd896d78471827667e94a04cd052c297b91568c6f3b1d9e7a08f"
+    },
+    {
+      "bytes": 2509,
+      "path": "docs/review/phase6/results/runtime.csv",
+      "sha256": "a1d8ff9557b4d523d4034d498f5df778879fc7bc575824a1a23846103533f195"
+    },
+    {
+      "bytes": 65980,
+      "path": "docs/review/phase6/results/runtime.json",
+      "sha256": "4cdf4bdd430f6980fd1289418723e9ffca30f0ece96239e2a74cc6e511d8e4e9"
+    },
+    {
+      "bytes": 3080,
+      "path": "docs/review/phase6/results/statistical_comparison.csv",
+      "sha256": "fa82a27027cf9e7eec0ded9a0bfcaad54a455e15eebb83f700da0cef969fffc5"
+    },
+    {
+      "bytes": 53561,
+      "path": "docs/review/phase6/results/statistics.json",
+      "sha256": "54644da976031951756c0615a9d3a4de0e1b2552d82791734119eceedf297e8d"
+    },
+    {
+      "bytes": 9474,
+      "path": "docs/review/phase6/runtime.py",
+      "sha256": "853d81ab65176487a5fea3a4451c733599cf7a7bc30899628e0a5de511e88dbb"
+    },
+    {
+      "bytes": 10187,
+      "path": "docs/review/phase6/statistics.py",
+      "sha256": "729983df64a7e1f71d238cdc1bf02841d3abc23e151ae2ce2a46f1bd5b1c90d4"
+    },
+    {
+      "bytes": 3607,
+      "path": "docs/review/phase6/test_phase6.py",
+      "sha256": "983305c7dd0fb9ed8066e22a774fb693f089cf43012682c9fddb85b7f820005f"
+    }
+  ],
+  "python_syntax_errors": [],
+  "scientific_gate": "GO to Phase 7: bounded eight-horizon inference and local runtime are supported; all-48 and household differences remain inconclusive; deployment latency remains unverified.",
+  "status": "complete",
+  "tests_output": "test_historical_seed0_dm_reconstruction (__main__.Phase6Validation.test_historical_seed0_dm_reconstruction) ... ok\ntest_inference_sensitivity_is_complete_and_finite (__main__.Phase6Validation.test_inference_sensitivity_is_complete_and_finite) ... ok\ntest_manuscript_effects_reconcile (__main__.Phase6Validation.test_manuscript_effects_reconcile) ... ok\ntest_runtime_samples_and_summaries (__main__.Phase6Validation.test_runtime_samples_and_summaries) ... ok\ntest_runtime_scope_rows_present (__main__.Phase6Validation.test_runtime_scope_rows_present) ... ok\ntest_status_and_declared_comparisons (__main__.Phase6Validation.test_status_and_declared_comparisons) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.011s\n\nOK\n",
+  "tests_pass": true
+}

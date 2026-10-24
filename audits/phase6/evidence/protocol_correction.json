@@ -1,0 +1,6 @@
+{
+  "status": "corrected_before_reporting",
+  "issue": "The first runtime pass selected incoming calibration scores at the same ring positions as the initialized buffer, so old and new values were identical even though the full O(W) update path executed.",
+  "correction": "The incoming score stream was offset by 37 calibration origins, forcing actual sorted-buffer deletion and insertion. The complete predeclared benchmark was rerun with unchanged hardware, threads, warmups and timed-call counts.",
+  "disposition": "The first runtime JSON was overwritten before interpretation and is not cited. No statistical result, forecast, checkpoint, scientific source or model was changed."
+}

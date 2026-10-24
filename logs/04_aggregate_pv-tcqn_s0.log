@@ -1,0 +1,8 @@
+ep  0 train 0.1277 val 0.0954 (63s)
+ep  1 train 0.0765 val 0.0903 (130s)
+ep  2 train 0.0671 val 0.0844 (195s)
+ep  3 train 0.0606 val 0.0901 (257s)
+ep  4 train 0.0564 val 0.1080 (325s)
+ep  5 train 0.0535 val 0.1089 (394s)
+ep  6 train 0.0507 val 0.1114 (458s)
+{"params": 95447, "train_time_s": 458.21265292167664, "best_val": 0.08439311385154724, "latency_ms_median": 0.9307079017162323, "latency_ms_p95": 1.1058810981921852, "args": {"level": "aggregate", "model": "pv-tcqn", "seed": 0, "epochs": 25, "steps": 150, "bs": 256, "lr": 0.001, "patience": 4, "threads": 4, "ablate": ""}}

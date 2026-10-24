@@ -1,0 +1,1781 @@
+{
+  "label": "New independent run versus original saved summaries",
+  "checks": [
+    {
+      "name": "All 26 protocol stages completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Numeric summary schema preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No source changed during execution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Revised manuscript package preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Original 56 files preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Raw data and reference summaries preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 50 forecast arrays recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lightgbm-q_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lightgbm-q_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s1_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s1_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s2_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s2_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s1_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s1_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s2_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s2_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_persistence_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_persistence_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s1_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s1_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s2_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s2_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s1_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s1_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s2_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s2_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s1_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s1_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s2_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s2_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s1_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s1_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s2_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s2_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_lightgbm-q_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_lightgbm-q_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_lstm-gauss_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_lstm-gauss_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_mlp-q_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_mlp-q_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_persistence_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_persistence_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_pv-tcqn_s0_cal.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_pv-tcqn_s0_test.npy shape/finite/noncrossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 21 neural checkpoints recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s1.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s1.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s2.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_lstm-gauss_s2.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s1.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s1.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s2.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_mlp-q_s2.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s0.pt/test replay",
+      "passed": true,
+      "detail": {
+        "threads": 4,
+        "batch_size": 4096,
+        "scalar_forecasts": 483896,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal": true
+      }
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s1.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s1.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s2.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-csky_s2.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s1.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s1.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s2.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-noskip_s2.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s1.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s1.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s2.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn-no-pvhist_s2.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s1.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s1.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s2.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aggregate_pv-tcqn_s2.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_lstm-gauss_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_lstm-gauss_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_mlp-q_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_mlp-q_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_pv-tcqn_s0.pt/cal replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "household_pv-tcqn_s0.pt/test replay",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fourteen LightGBM quantile-model files recorded",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "numeric_fields": 1108,
+  "missing_numeric_paths": [],
+  "additional_numeric_paths": [],
+  "scientific_values": {
+    "total": 1064,
+    "exact_matches": 511,
+    "different": 553
+  },
+  "timing_note": "New hardware/environment timings are recorded separately and are not expected to equal the original.",
+  "primary_comparisons": {
+    "aggregate": {
+      "original": {
+        "pv_qs7": 10.76207160949707,
+        "lightgbm_qs7": 11.548942565917969,
+        "qs7_reduction_percent": 6.813359335105096,
+        "shortest_horizon_reduction_percent": 24.32913492496874,
+        "pv_rw_aci_pooled_coverage": 0.9000983682444161,
+        "pv_rw_aci_max_monthly_gap": 0.014769345238095255,
+        "pv_rw_aci_under85_share": null,
+        "dm_vs_lightgbm": {
+          "stat": -4.430811405181885,
+          "p": 9.387916865422877e-06
+        }
+      },
+      "new_run": {
+        "pv_qs7": 10.761148770650228,
+        "lightgbm_qs7": 11.548942565917969,
+        "qs7_reduction_percent": 6.821350013399452,
+        "shortest_horizon_reduction_percent": 24.34321105049615,
+        "pv_rw_aci_pooled_coverage": 0.9001273000810092,
+        "pv_rw_aci_max_monthly_gap": 0.014769345238095255,
+        "pv_rw_aci_under85_share": null,
+        "dm_vs_lightgbm": {
+          "stat": -4.43867826461792,
+          "p": 9.051299997731772e-06
+        }
+      }
+    },
+    "household": {
+      "original": {
+        "pv_qs7": 0.12011102586984634,
+        "lightgbm_qs7": 0.12001411616802216,
+        "qs7_reduction_percent": -0.08074858601510027,
+        "shortest_horizon_reduction_percent": 8.629324571356422,
+        "pv_rw_aci_pooled_coverage": 0.9000134533040157,
+        "pv_rw_aci_max_monthly_gap": 0.001211226851851821,
+        "pv_rw_aci_under85_share": 0.0,
+        "dm_vs_lightgbm": {
+          "stat": 0.26916834712028503,
+          "p": 0.7878001369891663
+        }
+      },
+      "new_run": {
+        "pv_qs7": 0.12011837959289551,
+        "lightgbm_qs7": 0.12001411616802216,
+        "qs7_reduction_percent": -0.08687596776313367,
+        "shortest_horizon_reduction_percent": 8.620415401506943,
+        "pv_rw_aci_pooled_coverage": 0.9000119584924584,
+        "pv_rw_aci_max_monthly_gap": 0.001201678240740689,
+        "pv_rw_aci_under85_share": 0.0,
+        "dm_vs_lightgbm": {
+          "stat": 0.28929710388183594,
+          "p": 0.7723540283814244
+        }
+      }
+    }
+  },
+  "forecast_arrays": [
+    {
+      "file": "aggregate_lightgbm-q_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_lightgbm-q_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_lstm-gauss_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_lstm-gauss_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_lstm-gauss_s1_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_lstm-gauss_s1_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_lstm-gauss_s2_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_lstm-gauss_s2_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_mlp-q_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_mlp-q_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_mlp-q_s1_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_mlp-q_s1_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_mlp-q_s2_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_mlp-q_s2_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_persistence_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_persistence_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-csky_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-csky_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-csky_s1_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-csky_s1_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-csky_s2_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-csky_s2_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-noskip_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-noskip_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-noskip_s1_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-noskip_s1_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-noskip_s2_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-noskip_s2_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-pvhist_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-pvhist_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-pvhist_s1_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-pvhist_s1_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-pvhist_s2_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn-no-pvhist_s2_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn_s0_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn_s0_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn_s1_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn_s1_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn_s2_cal.npy",
+      "shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "aggregate_pv-tcqn_s2_test.npy",
+      "shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        1,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_lightgbm-q_s0_cal.npy",
+      "shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_lightgbm-q_s0_test.npy",
+      "shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_lstm-gauss_s0_cal.npy",
+      "shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_lstm-gauss_s0_test.npy",
+      "shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_mlp-q_s0_cal.npy",
+      "shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_mlp-q_s0_test.npy",
+      "shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_persistence_s0_cal.npy",
+      "shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_persistence_s0_test.npy",
+      "shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_pv-tcqn_s0_cal.npy",
+      "shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        721,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    },
+    {
+      "file": "household_pv-tcqn_s0_test.npy",
+      "shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "expected_shape": [
+        300,
+        8641,
+        8,
+        7
+      ],
+      "finite": true,
+      "noncrossing": true
+    }
+  ],
+  "checkpoint_replay": [
+    {
+      "checkpoint": "aggregate_lstm-gauss_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_lstm-gauss_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_lstm-gauss_s1.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_lstm-gauss_s1.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_lstm-gauss_s2.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_lstm-gauss_s2.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_mlp-q_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_mlp-q_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_mlp-q_s1.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_mlp-q_s1.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_mlp-q_s2.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_mlp-q_s2.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-csky_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.814697265625e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-csky_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 4.100799560546875e-05,
+      "small_batch_passed": false,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "original_settings_replay": {
+        "threads": 4,
+        "batch_size": 4096,
+        "scalar_forecasts": 483896,
+        "max_absolute_difference": 0.0,
+        "bitwise_equal": true
+      },
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-csky_s1.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-csky_s1.pt",
+      "split": "test",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-csky_s2.pt",
+      "split": "cal",
+      "max_absolute_difference": 4.57763671875e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-csky_s2.pt",
+      "split": "test",
+      "max_absolute_difference": 3.814697265625e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-noskip_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.814697265625e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-noskip_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 4.57763671875e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-noskip_s1.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-noskip_s1.pt",
+      "split": "test",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-noskip_s2.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.814697265625e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-noskip_s2.pt",
+      "split": "test",
+      "max_absolute_difference": 6.103515625e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-pvhist_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 2.4318695068359375e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-pvhist_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 4.57763671875e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-pvhist_s1.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-pvhist_s1.pt",
+      "split": "test",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-pvhist_s2.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn-no-pvhist_s2.pt",
+      "split": "test",
+      "max_absolute_difference": 4.57763671875e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.814697265625e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 4.57763671875e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn_s1.pt",
+      "split": "cal",
+      "max_absolute_difference": 5.340576171875e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn_s1.pt",
+      "split": "test",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn_s2.pt",
+      "split": "cal",
+      "max_absolute_difference": 3.814697265625e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "aggregate_pv-tcqn_s2.pt",
+      "split": "test",
+      "max_absolute_difference": 3.0517578125e-05,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "household_lstm-gauss_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "household_lstm-gauss_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "household_mlp-q_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "household_mlp-q_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 0.0,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "household_pv-tcqn_s0.pt",
+      "split": "cal",
+      "max_absolute_difference": 9.5367431640625e-07,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    },
+    {
+      "checkpoint": "household_pv-tcqn_s0.pt",
+      "split": "test",
+      "max_absolute_difference": 9.5367431640625e-07,
+      "small_batch_passed": true,
+      "tolerance": "rtol=1e-4, atol=1e-5; small-batch diagnostic",
+      "passed": true
+    }
+  ],
+  "failed_checks": []
+}
